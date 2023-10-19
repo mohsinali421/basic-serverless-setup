@@ -4,6 +4,6 @@ export const handler: Handler = async function (event: APIGatewayProxyEvent, con
   return {
     statusCode: 200,
     headers: {},
-    body: JSON.stringify(`hello from ${context.functionName}`, null, 2),
+    body: JSON.stringify(`hello there from ${context.functionName}`, null, 2),
   }
 }
